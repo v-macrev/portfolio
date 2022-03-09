@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="Página-Inicial.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.4.1/vanilla-tilt.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js" crossorigin=""></script>
     <meta name="generator" content="Nicepage 4.6.5, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -30,7 +32,7 @@
     <meta property="og:title" content="Página Inicial">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-overlap u-overlap-contrast u-xl-mode"><header class="u-clearfix u-header u-sticky u-sticky-c75f u-header" id="sec-a7b1"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+  <body data-home-page="Página-Inicial.html" data-home-page-title="Página Inicial" class="u-body u-overlap u-overlap-contrast u-xl-mode"><header class="u-clearfix u-header u-sticky u-sticky-c75f u-header" id="sec-a7b1"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <nav class="u-menu u-menu-dropdown u-menu-open-right u-offcanvas u-menu-1" data-responsive-from="XL">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;" wfd-invisible="true">
             <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-white" href="#">
@@ -68,7 +70,43 @@
     <section class="u-align-center u-clearfix u-image u-shading u-section-2" id="carousel_be38" data-image-width="1110" data-image-height="586">
       <div class="u-absolute-hcenter u-expanded u-gradient u-shape u-shape-rectangle u-shape-1"></div>
       <h2 class="u-text u-text-body-alt-color u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">Projects</h2>
-      <a href="https://nicepage.me" class="u-border-2 u-border-hover-white u-border-white u-btn u-button-style u-hover-white u-none u-text-hover-black u-text-white u-btn-1">SEe all</a>
+
+
+  <div id="app" class="container">
+
+    <a href="?a=itens&c=vestuario">
+    <card id="vestuario" data-image="images/f914d33b-a6ed-4d87-ac87-09963f4757da1.jfif?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">Vestuário</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+  </a>
+
+    <a href="?a=itens&c=livros">
+    <card id="livros" data-image="images/WhatsAppImage2022-03-04at13.52.11.jpeg?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">Livros</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+    </a>
+
+    <a href="?a=itens&c=jogos">
+    <card id="jogos" data-image="images/photo-1470770841072-f978cf4d019e.jpg?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
+      <h1 id="cartao" slot="header">Jogos</h1>
+      <p id="cartao" slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+  </a>
+
+      <a href="?a=itens&c=outros">
+    <card id="mais" data-image="images/natureforesttreesfog.jpg?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">Mais</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+  </a>
+
+  <a href="https://nicepage.me" class="u-border-2 u-border-hover-white u-border-white u-btn u-button-style u-hover-white u-none u-text-hover-black u-text-white u-btn-1">SEe all</a>
+
+</div>
+
+      
     </section>
     <section class="u-clearfix u-section-3" id="carousel_adeb">
       <div class="u-palette-1-light-2 u-shape u-shape-rectangle u-shape-1"></div>
@@ -198,21 +236,6 @@
         </div>
       </div>
     </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-6c1d"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-      </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">
-        <span>HTML Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Offline Website Builder Software</span>
-      </a>. 
-    </section>
+
   </body>
 </html>
