@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WhatsAppImage2022-03-04at13.52.11.jpeg");
+  background-position: 50% 50%;
   min-height: 920px;
 }
 
@@ -24,7 +25,6 @@
 
 @media (max-width: 1399px) {
    .u-section-1 {
-    background-position: 50% 50%;
     min-height: 938px;
   }
 
@@ -176,22 +176,29 @@
 
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 473px;
+    min-height: 715px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 240px;
+    min-height: 643px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 44px;
+    min-height: 535px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 407px;
   }
 } .u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/pexels-darius-krause-2228154.jpg");
+  background-position: 50% 45.96%;
 }
 
 .u-section-5 .u-sheet-1 {
@@ -218,10 +225,6 @@
 }
 
 @media (max-width: 1399px) {
-   .u-section-5 {
-    background-position: 50% 45.96%;
-  }
-
   .u-section-5 .u-sheet-1 {
     min-height: 641px;
   }
