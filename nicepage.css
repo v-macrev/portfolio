@@ -36783,15 +36783,8 @@ a.u-link.u-text-hover-grey-90:hover {
   color: rgb(85, 172, 238) !important;
 }
 @media (max-width: 1399px) {
-  .u-footer .u-text-1 {
-    margin-top: 10px;
-  }
-
-  .u-footer .u-line-1 {
-    margin-top: 10px;
-  }
-
   .u-footer .u-social-icons-1 {
+    width: 123px;
     margin-top: 24px;
     margin-bottom: 51px;
   }
@@ -36802,7 +36795,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 123px;
     margin-left: 420px;
   }
 }
