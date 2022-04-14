@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WhatsAppImage2022-03-04at13.52.11.jpeg");
-  background-position: 50% 50%;
   min-height: 920px;
 }
 
@@ -26,6 +25,7 @@
 @media (max-width: 1399px) {
    .u-section-1 {
     min-height: 938px;
+    background-position: 50% 50%;
   }
 
   .u-section-1 .u-image-1 {
@@ -58,7 +58,6 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    background-position: 50% 50%;
     min-height: 690px;
   }
 
@@ -188,7 +187,7 @@
 .u-section-3 .u-shape-1 {
   width: 433px;
   height: 433px;
-  background-image: linear-gradient(#000000, #0b0b0b);
+  background-image: linear-gradient(#666666, #ddd9d9);
   margin: 44px auto 0 444px;
 }
 
@@ -324,7 +323,6 @@
   }
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/GamesProjects.jfif");
-  background-position: 50% 45.96%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -347,6 +345,10 @@
 }
 
 @media (max-width: 1399px) {
+   .u-section-4 {
+    background-position: 50% 45.96%;
+  }
+
   .u-section-4 .u-form-1 {
     height: 452px;
     margin-top: 186px;
@@ -387,40 +389,21 @@
   .u-section-4 .u-form-1 {
     width: 340px;
   }
-}
-
-body {
+}body {
   -webkit-font-smoothing: antialiased;
 }
-
-div#portfolio{
-  background-color: #000;
-  padding-top: 40px;
-}
-
-.title {
-  font-family: "Raleway";
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-}
-
 p {
   line-height: 1.5em;
 }
-
 h1 + p, p + p {
   margin-top: 10px;
 }
-
 .container {
   padding: 40px 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .parallax-card-wrapper {
   margin: 10px;
   transform: perspective(800px);
@@ -449,7 +432,6 @@ h1 + p, p + p {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
   box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px, rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px;
 }
-
 .card {
   position: relative;
   flex: 0 0 240px;
@@ -461,22 +443,20 @@ h1 + p, p + p {
   box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-
 .card-bg {
-  opacity: 0.5;
   position: absolute;
   top: -20px;
   left: -20px;
-  width: 120%;
-  height: 120%;
   padding: 20px;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   pointer-events: none;
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-
 .card-info {
   padding: 20px;
   position: absolute;
@@ -508,7 +488,6 @@ h1 + p, p + p {
   transform: translateY(100%);
   transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-
 .card-info h1 {
   font-family: "Playfair Display";
   font-size: 36px;
