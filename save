@@ -8,21 +8,21 @@
 
       
             <a href="Websites&Softwares.html">
-              <card data-image="images/Websites&Softwares.png">
+              <card data-image="images/websitesandSoftwares.png">
                 <h1 slot="header">Websites & Softwares</h1>
                 <p slot="content">Here I'll show and explain the process about the websites and softwares that I did.</p>
               </card>
             </a>
 
             <a href="Games&Projects.html">
-              <card data-image="images/Games&Projects.jpg">
+              <card data-image="images/gamesandprojects.jpg">
                 <h1 slot="header">Games & Projects</h1>
                 <p slot="content">Where my knowledge in programming and my creativity flows to create stuff that I love.</p>
               </card>
             </a>  
 
             <a href="Arts&Designs.html">  
-              <card data-image="images/Arts&Designs.png">
+              <card data-image="images/artsanddesigns.png">
                 <h1 slot="header">Arts & Designs</h1>
                 <p slot="content">Here is where stays my creativity, where I do some things not too relate to programming.</p>
               </card>
