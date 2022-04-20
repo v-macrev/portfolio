@@ -36721,22 +36721,23 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-@media (max-width: 1399px) {
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
-}
+
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
+  }
+}
 
 
 .u-footer .u-sheet-1 {
