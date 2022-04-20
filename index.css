@@ -5,14 +5,14 @@
 
 .u-section-1 .u-image-1 {
   width: 780px;
-  height: 1013px;
+  height: 1012px;
   margin: -92px 0 0 auto;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 7.5rem;
   text-shadow: 9px 2px 19px rgba(0,0,0,1);
-  margin: -403px auto 0 calc(((100% - 1320px) / 2) + 106px);
+  margin: -402px auto 0 calc(((100% - 1320px) / 2) + 106px);
 }
 
 .u-section-1 .u-text-2 {
@@ -100,12 +100,12 @@
 
   .u-section-1 .u-image-1 {
     width: 720px;
-    height: 935px;
+    height: 934px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 4.5rem;
-    margin-top: -325px;
+    margin-top: -324px;
     margin-left: calc(((100% - 720px) / 2) + 106px);
   }
 
@@ -121,7 +121,7 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 190px;
+    min-height: 191px;
   }
 
   .u-section-1 .u-image-1 {
@@ -380,7 +380,6 @@
     width: 340px;
   }
 }
-
 
 body {
   -webkit-font-smoothing: antialiased;
