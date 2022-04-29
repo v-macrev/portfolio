@@ -25,7 +25,7 @@ section {
   background-color: rgba(0, 0, 0, 0);
 }
 .header.scrolled {
-  background-color: rgba(0, 0, 0, 0.561) !important;
+  background-color: rgba(0, 0, 0, 0.86) !important;
   transition: background-color 200ms linear;
 }
 .menu-icon {
@@ -69,19 +69,19 @@ section {
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background: rgb(7, 7, 7);
+  background: rgb(0, 0, 0);
   transition-delay: 0s;
 }
 .nav:before {
   transition-delay: 0.1s;
 }
 .nav__content {
+  visibility: hidden;
   position: fixed;
   top: 50%;
   transform: translate(0%, -50%);
   width: 100%;
   text-align: center;
-  color: #fff;
   font-size: calc(2vw + 10px);
   font-weight: 200;
   cursor: pointer;
@@ -121,6 +121,9 @@ body.nav-active .menu-icon__line-right {
   transform: translateX(-2px) rotate(45deg);
 }
 body.nav-active .nav {
+  visibility: visible;
+}
+body.nav-active .nav__content {
   visibility: visible;
 }
 body.nav-active .nav:before, body.nav-active .nav:after {
