@@ -43,44 +43,24 @@
   </head>
   <body data-home-page="index.html" data-home-page-title="index" class="u-body u-overlap u-overlap-contrast u-stick-footer u-xxl-mode">
 
-    <header class="u-clearfix u-custom-color-1 u-header u-sticky u-sticky-f0a0 u-header" id="sec-6403">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <nav class="u-menu u-menu-dropdown u-menu-open-right u-offcanvas u-menu-1" data-responsive-from="XXL">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
-            <a class="u-button-style u-custom-border u-custom-border-color u-custom-borders u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-white" href="#">
-              <svg class="u-svg-link" viewBox="0 0 24 24">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-              </svg>
-              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g>
-              </svg>
-            </a>
-          </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1">
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="index.html" style="padding: 10px;">Home</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="websitesandsoftwares.html" style="padding: 10px;">Websites &amp; Softwares</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="gamesandprojects.html" style="padding: 10px;">Games &amp; Projects</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="artsanddesigns.html" style="padding: 10px;">Arts &amp; Designs</a></li>
-            </ul>
-          </div>
-          <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="websitesandsoftwares.html">Websites &amp; Softwares</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="gamesandprojects.html">Games &amp; Projects</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="artsanddesigns.html">Arts &amp; Designs</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
-        </nav>
+    <div class="header">
+      <div class="menu-icon">
+        <span class="menu-icon__line menu-icon__line-left"></span>
+        <span class="menu-icon__line"></span>
+        <span class="menu-icon__line menu-icon__line-right"></span>
       </div>
-    </header>
-
+      
+      <div class="nav">
+        <div class="nav__content">
+          <ul class="nav__list">
+            <a style="color: #fff;" href="index.html"><li class="nav__list-item"> Home </li></a>
+            <a style="color: #fff;" href="gamesandprojects.html"><li class="nav__list-item"> Games & Projects</li></a>
+            <a style="color: #fff;" href="artsanddesigns.html"><li class="nav__list-item"> Arts &  Designs </li></a>
+            <a style="color: #fff;" href="websitesandsoftwares.html"><li class="nav__list-item"> Websites & Softwares </li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <section class="skrollable u-align-center u-clearfix u-image u-parallax u-shading u-index-1" id="sec-36ea" data-image-width="1280" data-image-height="483">
       <img class="u-expanded-width-xs u-image u-image-default u-image-1" src="assets/images/Macrev.png" alt="" data-image-width="960" data-image-height="1280">
@@ -112,13 +92,6 @@
       <div id="app" class="container u-align-center u-clearfix u-palette-1-base index-2">
   
         
-              <a href="websitesandsoftwares.html">
-                <card data-image="assets/images/websitesandsoftwares.png">
-                  <h1 slot="header">Websites & Softwares</h1>
-                  <p slot="content">Here I'll show and explain the process about the websites and softwares that I did.</p>
-                </card>
-              </a>
-  
               <a href="gamesandprojects.html">
                 <card data-image="assets/images/gamesandprojects.png">
                   <h1 slot="header">Games & Projects</h1>
@@ -132,6 +105,15 @@
                   <p slot="content">Here is where stays my creativity, where I do some things not too relate to programming.</p>
                 </card>
               </a>
+              
+              <a href="websitesandsoftwares.html">
+                <card data-image="assets/images/websitesandsoftwares.png">
+                  <h1 slot="header">Websites & Softwares</h1>
+                  <p slot="content">Here I'll show and explain the process about the websites and softwares that I did.</p>
+                </card>
+              </a>
+  
+              
   
               
   
